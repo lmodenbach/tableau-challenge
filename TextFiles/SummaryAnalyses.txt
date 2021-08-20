@@ -1,0 +1,41 @@
+//Station Map Analysis
+//Data Sources: csv containing data and summary data for all stations, csv containing data and summary data for all 
+stations just as start stations, csv containing data and summary data for all stations just as stop stations
+
+While constructing my station maps I noticed two distinct trends. The first, rather obvious trend is the steady increase in 
+activity over time. The second is the seasonal usage, visible as a constant swelling and shrinking in activity with 
+a consistent pattern even as overall usage increased over time. Ridership peaks in the summer months, declines through
+Fall, reaches a low during Winter, and begins increasing again in the Spring. This is perfectly congruent with outdoor
+weather conditions in a region with strongly typed seasons. I believe it is worth noting that this pattern is documented
+and can be relied upon. I have included a map of station popularity over time, as well as maps of start station and end 
+station popularity over time to suit all purposes.
+
+
+
+//Phenommenon 1: Seasonal Weekly Usage Analysis
+//Data Sources: csv containing all data for all stations during the first and last Summers of the recorded data period,
+csv containing all data for all stations during the first and last Winters of the recorded data period
+
+I analyzed seasonal weekly usage patterns, and found that during both Summer and Winter weekday usage exceeds weekend 
+usage. This in and of itself is due to the greater count of weekdays than weekends, as I found when I looked at the 
+breakdown of usage by day. I found a pattern masked by the lump comparisons. Peak or near peak daily usage occurs 
+more frequently on weekdays during the Winter, and more frequently on weekends during the Summer. The difference 
+between the two is not absolute but is marked. I have included a dashboard comparing the overall weekly usage patterns,
+by month and year and a dashboard comparing average daily usage patterns by week for both month and year both for Summer
+and for Winter. 
+
+
+
+//Phenomenon 2: Bad Birth Year Data Analysis
+////Data Sources: csv containing all data for all stations during the first and last Summers of the recorded data period,
+csv containing all data for all stations during the first and last Winters of the recorded data period
+
+I found some bad data in the birth year field, and analyzed its significance using the Summer and Winter datasets 
+independently. I made one assumption: data indicating a rider was 100 years old or older I considered bad data. 
+Partitioning the data this way let me analyze what portion of the data points were bad, and what portion of the data 
+values were bad. I found that over time the number of bad data points (birth year labels) as a portion of all data points
+increased, but the portion of overall bad data values decreased significantly. This is probably the combination of better
+reporting improving the actual data and greater volume of ridership widening the spread of data points over time. I have 
+included a dashboard each for Summer and Winter containing two charts. The pie charts show the portion of bad data points
+within total data points, and are sized according to proportion of bad data points to good for the indicated time period.
+The second shows bubbles indicating with size how large 

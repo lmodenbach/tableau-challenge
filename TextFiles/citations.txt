@@ -1,0 +1,7 @@
+Citibike Trip Data: 06/2013-06/2021
+
+Data Site Home
+https://www.citibikenyc.com/system-data
+
+Data Downloads
+https://s3.amazonaws.com/tripdata/index.html
