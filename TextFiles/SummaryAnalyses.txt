@@ -43,7 +43,7 @@ percent of total data is indicated in the detail.
 
 
 
-//Phenomenon 3: The year 1969
+//Phenomenon 3: The Year 1969
 ////Data Sources: csv containing all data for all stations during the first and last Summers of the recorded data period,
 csv containing all data for all stations during the first and last Winters of the recorded data period
 
