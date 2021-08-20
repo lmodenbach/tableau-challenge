@@ -37,5 +37,16 @@ values were bad. I found that over time the number of bad data points (birth yea
 increased, but the portion of overall bad data values decreased significantly. This is probably the combination of better
 reporting improving the actual data and greater volume of ridership widening the spread of data points over time. I have 
 included a dashboard each for Summer and Winter containing two charts. The pie charts show the portion of bad data points
-within total data points, and are sized according to proportion of bad data points to good for the indicated time period.
-The second shows bubbles indicating with size how large 
+within total data points, and are sized according to the proportion of bad data points to good for the indicated time period.
+The second charts show bubbles indicating with size how large of a a portion of all data values the data point has. The 
+percent of total data is indicated in the detail. 
+
+
+
+//Phenomenon 3: The year 1969
+////Data Sources: csv containing all data for all stations during the first and last Summers of the recorded data period,
+csv containing all data for all stations during the first and last Winters of the recorded data period
+
+For unknown reasons the year 1969 figures significantly in birth year of riders in recent years, as can be seen in the 
+bubble charts with comparatively huge bubbles for 1969. The trend is real, the cause is unknown, but the information may
+be useful for marketing or further research.
